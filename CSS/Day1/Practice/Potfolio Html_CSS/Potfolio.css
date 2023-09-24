@@ -1,0 +1,33 @@
+body {
+    background-color: floralwhite;
+}
+
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+th {
+    background-color: blue;
+    color: black;
+}
+
+td {
+    background-color: tomato;
+}
+
+.blue {
+    background-color: aqua;
+}
+
+#blue {
+    background-color: aquamarine;
+}
+
+#whith {
+    background-color: white;
+}
+
+#purpul {
+    background-color: rebeccapurple;
+}
