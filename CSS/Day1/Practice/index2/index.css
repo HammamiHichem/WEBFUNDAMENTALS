@@ -1,0 +1,37 @@
+.is-centred {
+    text-align: center;
+}
+
+.color {
+    color: red;
+    text-align: end;
+}
+
+.blue {
+    color: blue;
+    
+}
+
+
+.conteneur {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+}
+
+img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+#blue {
+    color: blue;
+    text-align: center;
+}
+
+#green{
+    color: chartreuse;
+}
+    

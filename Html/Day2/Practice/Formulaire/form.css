@@ -1,0 +1,29 @@
+h1 {
+    color: tomato;
+    text-align: center;
+}
+
+p{
+    color: tomato;
+}
+
+.p {
+    color: green;
+}
+
+li{
+    color: blue;
+}
+
+button{
+    color: rebeccapurple;
+}
+
+.label{
+    color: coral;
+}
+
+#label{
+    color: darkgreen;
+}
+
