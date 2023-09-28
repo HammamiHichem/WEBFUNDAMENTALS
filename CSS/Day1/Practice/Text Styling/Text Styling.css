@@ -1,0 +1,26 @@
+.black {
+    text-align: justify;
+    background-color: black;
+}
+
+.word1 {
+    color: white; 
+}
+
+.word2 {
+    color: aqua ; 
+}
+
+.word20{
+    color: aqua;
+}
+p {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+}
+
+div{
+    text-align: right;
+    background-color: cadetblue;
+}
