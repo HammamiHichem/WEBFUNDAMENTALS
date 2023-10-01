@@ -1,26 +1,23 @@
-.black {
+h1 {
     text-align: justify;
     background-color: black;
 }
 
 .word1 {
-    color: white; 
+    color: white;
 }
-
 .word2 {
-    color: aqua ; 
-}
-
-.word20{
     color: aqua;
 }
-p {
-    background-color: rebeccapurple;
-    color: white;
+
+
+h2 {
+    background-color: rebeccapurple; 
+    color:  white;
     text-align: center;
 }
 
-div{
-    text-align: right;
-    background-color: cadetblue;
+.Mailto {
+    background-color: cornflowerblue;
+    text-align: end;
 }
