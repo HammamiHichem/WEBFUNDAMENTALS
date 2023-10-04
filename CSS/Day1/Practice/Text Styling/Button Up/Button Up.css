@@ -1,0 +1,33 @@
+.button1, .button2, .button3 {
+    margin: 10px;
+    
+}
+
+.button1 {
+    color: rgb(82, 214, 82);
+    background-color: rgba(128, 128, 128, 0.289);
+    border: 1px solid green;
+    border-radius: 50px;
+    height: 30px;
+    width: 150px ;
+}
+
+.button2 {
+    width: 50px; /* Définissez la largeur et la hauteur pour créer un cercle */
+    height: 50px;
+    border-radius: 50%; /* Définissez la moitié de la largeur/hauteur pour créer un cercle */
+    background-color: aquamarine; /* Couleur de fond */
+    color: white;
+    border: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.button3 {
+    color: white;
+    background-color: blue;
+    height: 30px;
+    width: 150px ;
+    border: 2px solid black;
+    box-shadow: 5px 2px 2px black;
+}
