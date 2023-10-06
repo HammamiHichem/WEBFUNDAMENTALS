@@ -40,15 +40,16 @@
     flex-wrap: wrap;
 }
 
-
 .sub-content {
     height: 240px;
     width: 28%;
     background-color: yellow;
+    margin: 20px;
 }
 #advertisement {
     height: 105px;
-    width: 90%;
+    width: 1027px;
     background-color: purple;
+    margin: 30px;
 }
 
