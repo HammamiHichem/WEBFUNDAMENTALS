@@ -1,0 +1,37 @@
+.nav{
+    background-color: #333333;
+    text-decoration : none;
+    color: white;
+    height: 80%;
+    border: 3px solid #828282;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins",sans-serif;
+}
+
+.nav-links{
+    list-style-type: none;
+    color: transparent;
+    display: flex;
+    text-decoration : none;
+}
+
+.home, .active, .find-connection, .btn{
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+.btn{
+    background-color: #15a4bc;
+    color: white;
+    box-shadow: 50px;    
+}
+
+.home, .active, .find-connection{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
