@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 700px;
+    margin: 40px auto;
+    font-family: cursive;
+}
+
+#header{
+    background-color: #17a2b8;
+    height: 100px;
+    
+}
+#card-body{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #cecece;
+    border-top: none;
+    padding: 50px 20px;
+}
+p, a, h1 {
+    margin: 5px;
+}
+
+.icon{
+    height: 15px;
+    margin-right: 5px;
+}
+
+#user{
+    width: 80px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+    border: 3px solid #cecece;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.flex-user{
+   display: flex; 
+   align-items: center;
+}
