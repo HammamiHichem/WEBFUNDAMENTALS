@@ -1,0 +1,220 @@
+/* reset */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Start Flex Navbar */
+#navbar{
+    background-color: #000000;
+    font-family: cursive;
+    color: #f3f3f3;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile{
+    margin-right: -131px;
+    align-self: center;
+}
+
+.buttom{
+    display: flex;
+}
+
+
+.btn{
+    background-color: #17a2b8;
+    width: 100px;
+    height: 20px;
+    align-self: center;
+
+}
+
+.home, .active, .find-connection{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    align-self: center;
+}
+
+.nav-link{
+    list-style-type: none;
+    color: transparent;
+    text-decoration : none;
+    display: flex;
+    margin: 20px auto;
+}
+/* End Flex Navbar */
+
+/* Start Main */
+
+#container-global{
+    display: flex;
+    margin: 100px;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+}
+
+#container{
+    width: 400px;
+    margin: 40px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    background-color:#17a2b8 ;
+    height: 80px;
+}
+
+.user-pic{
+    border-radius: 50%;
+    border: 6px solid #cecece;
+    position: relative;
+    padding: 3px;
+    width: 82px;
+    left: 18px;
+    top: 37px;
+}
+
+
+.user-body{
+    border: 3px solid #cecece;
+    border-top: none;
+    flex-direction: column;
+    padding: 70px 20px;
+}
+
+.flex-user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+#container-1{
+    width: 400px;
+    margin: 40px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+h3{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    padding: 15px;
+}
+
+.user-body-2{
+    background-color: white;
+    border-right: 2px solid silver;
+    border-left: 2px solid silver;
+    border-top: 1px solid silver;
+    color: black;
+    font-family: cursive;
+    margin: 30px 0;
+}
+.user-body-1{
+    background-color: white;
+    border: 3px solid silver;
+    color: black;
+    font-family: cursive;
+    padding: 0 0 0 0;
+    width: 400px;
+    margin: 0 0 20px 0;
+}
+
+
+.img{
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.link{
+    padding: 0 10px;
+}
+
+.icon{
+    height: 15px;
+    padding: 0 10px;
+}
+
+.map{ 
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+}
+
+.user-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.user-2 {
+    display: flex;
+}
+p.nom {
+    padding-top: 10px;
+}
+
+.chois{
+    display: flex;
+    
+}
+.dec-mars{
+    color: silver;
+    margin: 10px;
+}
+
+.number{
+    width: 20px; /* Largeur du cercle */
+    height: 20px; /* Hauteur du cercle */
+    background-color: #888; /* Couleur de fond du cercle (gris) */
+    border-radius: 50%; /* Bordure en forme de cercle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000; /* Couleur du texte (noir) */
+    font-size: 20px; /* Taille de la police */
+    margin: 10px;
+}
+
+.number-2{
+    width: 60px; /* Largeur du cercle */
+    height: 30px; /* Hauteur du cercle */
+    background-color: #888; /* Couleur de fond du cercle (gris) */
+    border-radius: 50%; /* Bordure en forme de cercle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000; /* Couleur du texte (noir) */
+    font-size: 20px; /* Taille de la police */
+    margin: 10px;
+}
+
+.connection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* Styles de base pour le pied de page vide */
+
+.footer {
+    background-color: silver;
+    height: 30px;
+    width: 100%;
+    display: block; 
+}
+
+
+
+

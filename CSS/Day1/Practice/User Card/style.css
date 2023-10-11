@@ -41,6 +41,6 @@ p, a, h1 {
 }
 
 .flex-user{
-   display: flex; 
-   align-items: center;
+    display: flex; 
+    align-items: center;
 }
