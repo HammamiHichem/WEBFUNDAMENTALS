@@ -26,9 +26,11 @@
 
 .btn{
     background-color: #17a2b8;
-    width: 100px;
+    width: auto;
     height: 20px;
     align-self: center;
+    border: solid 1px #ccc;
+    padding: 0px 10px 0px 10px;
 
 }
 
