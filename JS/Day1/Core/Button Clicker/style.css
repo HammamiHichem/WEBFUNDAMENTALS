@@ -1,0 +1,113 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Start-CSS-NavBar */
+
+.navbar{
+    background-color: silver;
+    width: 884px;
+    height: 50px;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    color: black;
+}
+
+.search-bar{
+    border: 1px solid black;
+}
+
+#loginButton{
+    color: white;
+    background-color: #4285f4;
+    padding: 5px 10px;
+    box-shadow: 5px 5px 10px #000;
+    margin: 0 20px;
+}
+/* End-CSS-NavBar */
+
+/* Start-CSS-Main */
+
+#container-global{
+    width: 955px;
+    padding: 2px 185px;
+    display: flex;
+    justify-content: center
+}
+
+.containers-1-2{
+    margin: 80px 45px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container-1{
+    border: 2px solid black;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+}
+
+.container-2{
+    border: 2px solid black;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+}
+
+.container-3{
+    border: 2px solid black;
+    width: 209px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 10px;
+}
+
+.box-1 {
+font-family: cursive;
+margin: 0 15px;
+}
+
+.skilled{
+    font-size: 18px;
+    font-family: cursive;
+}
+span{
+    color: #4285f4;
+    text-decoration: underline #4285f4;
+}
+
+.footer {
+    background-color: silver;
+    height: 30px;
+    width: 100px;
+}
+
+.btn{
+    background-color: #ffd966 ;
+    box-shadow: 5px 5px 10px #000;
+    margin:  10px 0;
+}
+#btn-1{
+    background-color: #93c47d;
+    box-shadow: 5px 5px 10px #000;
+    width: 103px;
+    margin: 20px;
+}
+

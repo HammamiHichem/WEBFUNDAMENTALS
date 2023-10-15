@@ -1,0 +1,40 @@
+.navbar{
+    background-color: silver;
+    width: 884px;
+    height: 50px;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    color: black;
+}
+
+.search-bar{
+    border: 1px solid black;
+}
+
+#loginButton{
+    color: white;
+    background-color: #4285f4;
+    padding: 5px 10px;
+    box-shadow: 5px 5px 10px #000;
+    margin: 0 20px;
+}
+
+/* Start-CSS-Main */
+
+#container-global{
+    width: 955px;
+    padding: 2px 185px;
+    display: flex;
+    justify-content: center
+}
