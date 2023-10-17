@@ -1,93 +1,96 @@
+/*  reset */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 1200px;
+    padding: 0px;
+    margin: 0px 20%;
+}
 
 #header{
     background-color: #000;
     color: white;
     width: 800px;
-    height: 70px;
-    top: 0;
-    margin: 0 300px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-        
+    height: 50px;
+    text-align: left;
 }
 
-h1{
-    margin: 10px 10px;
-}
-
-h2{
-    margin: 20px 670px;
+.yourfeed{
+    
+    margin: 0px 300px;
 }
 
 #main{
-    width: 526px;
-    height: 100%;
+    width: 800px;
+    padding: 20px 0px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
+
 .container-globale{
-    width: 526px;
-    height: 131px;
-    margin: 0px 870px;
-    display: flex;
-    flex-direction: column;
+    width: 450px;
+    margin: 20px 0px;
 }
 
-.c1{
-    margin: 10px -230px;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.c2{
-    margin: 10px -230px;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.c3{
-    margin: 10px -230px;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.c1, .c2, .c3{
+    border:2px solid #000 ;
+    margin: 20px 0px;
+    padding: 20px;
 }
 
 .container-1{
     display: flex;
     justify-content: space-between;
-    align-content: stretch;
-    align-items: center;
+    margin: 15px 0px;
 }
 
-.container-2{
+.user-circle{
+    border: 2px solid #000;
+    padding: 16px;
+    width: 165px;
+    margin: 38px 30px;
+    height: 195px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
+}
+    
+
+.img{
+    width: 50%; 
+    height: auto;
+    margin: 0px 40px;
 }
 
+.container-user{
+    height: auto;
+    margin: 0px 35px;
+}
 
-#likeButton{
+.user-name{
+    height: auto;
+    margin: 20px 9px;
+}
+
+#likeButton-1, #likeButton-2, #likeButton-3{
     background-color: #ffd966;
     box-shadow: 5px 5px 10px #000;
-    margin: 36px 5px;
-    display: flex;
 }
 
-#likeButton2{
-    background-color: #ffd966;
-    box-shadow: 5px 5px 10px #000;
-    margin: 36px 5px;
-    display: flex;
+
+.footer{
+    border-inline-start-color: black;
+    background-color: #c1c1c1;
+    width: 800px;
+    height: 50px;
+    
 }
 
-#likeButton3{
-    background-color: #ffd966;
-    box-shadow: 5px 5px 10px #000;
-    margin: 36px 5px;
-    display: flex;
-}
+
+
+
+
+

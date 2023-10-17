@@ -1,14 +1,19 @@
-<script>
-        const likeButton1 = document.getElementById("likeButton1");
-        const likeButton2 = document.getElementById("likeButton2");
-        const likeButton3 = document.getElementById("likeButton3");
-        const like = document.getElementById("like");
-        let likes = 0;
-        likeButton1.addEventListener("click", incrementLikes);
-        likeButton2.addEventListener("click", incrementLikes);
-        likeButton3.addEventListener("click", incrementLikes);
-        function incrementLikes() {
-        likes++;
-        likes.textContent = likes;
-        }
-    </script>
+const likeButtons = document.querySelectorAll('.like-button');
+const likeCounts = document.querySelectorAll('.like-count');
+
+const counts = [9, 12, 9];
+
+likeButtons.forEach((button, index) => {
+    button.addEventListener('click', function() {
+        counts[index]++;
+        likeCounts[index].textContent = counts[index];
+    });
+});
+
+const clickButton = document.getElementById('click-button');
+
+
+clickButton.addEventListener('click', function() {
+window.alert("Thank you to the entire Coding Dojo team!");
+});
+
