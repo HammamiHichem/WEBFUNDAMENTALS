@@ -1,0 +1,33 @@
+
+.containers-globale{
+    border: 2px solid black;
+    width: 526px;
+    height: 131px;
+    margin: 27px 188px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-1{
+    width: 50%;
+    margin: -31px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+}
+
+.container-2{
+    width: 50%;
+    margin: -17px 25px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#likeButton{
+    background-color: #ffd966;
+    box-shadow: 5px 5px 10px #000;
+    margin: 36px 5px;
+    display: flex;
+}

@@ -1,0 +1,93 @@
+
+#header{
+    background-color: #000;
+    color: white;
+    width: 800px;
+    height: 70px;
+    top: 0;
+    margin: 0 300px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+        
+}
+
+h1{
+    margin: 10px 10px;
+}
+
+h2{
+    margin: 20px 670px;
+}
+
+#main{
+    width: 526px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.container-globale{
+    width: 526px;
+    height: 131px;
+    margin: 0px 870px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c1{
+    margin: 10px -230px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.c2{
+    margin: 10px -230px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.c3{
+    margin: 10px -230px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+}
+
+.container-2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+#likeButton{
+    background-color: #ffd966;
+    box-shadow: 5px 5px 10px #000;
+    margin: 36px 5px;
+    display: flex;
+}
+
+#likeButton2{
+    background-color: #ffd966;
+    box-shadow: 5px 5px 10px #000;
+    margin: 36px 5px;
+    display: flex;
+}
+
+#likeButton3{
+    background-color: #ffd966;
+    box-shadow: 5px 5px 10px #000;
+    margin: 36px 5px;
+    display: flex;
+}
