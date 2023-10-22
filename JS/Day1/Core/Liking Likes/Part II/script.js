@@ -1,7 +1,7 @@
-const likeButtons = document.querySelectorAll('.like-button');
-const likeCounts = document.querySelectorAll('.like-count');
+var likeButtons = document.querySelectorAll('.like-button');
+var likeCounts = document.querySelectorAll('.like-count');
 
-const counts = [9, 12, 9];
+var counts = [9, 12, 9];
 
 likeButtons.forEach((button, index) => {
     button.addEventListener('click', function() {
@@ -16,4 +16,3 @@ const clickButton = document.getElementById('click-button');
 clickButton.addEventListener('click', function() {
 window.alert("Thank you to the entire Coding Dojo team!");
 });
-
