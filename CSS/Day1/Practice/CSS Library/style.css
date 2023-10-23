@@ -1,0 +1,32 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic button styles */
+.btn {
+    display: flex;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Primary button style */
+.primary {
+    background-color: #3498db;
+    color: #fff;
+    width: 200px;
+}
+
+/* Secondary button style */
+.secondary {
+    background-color: #e74c3c;
+    color: #fff;
+    width: 200px;
+}
+
+/* Add more button styles and classes as needed */
